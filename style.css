@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    /* /* background-image: url("path/to/your/image.jpg");  */
-    background-color: rgb(247, 209, 159);
-    background-size: cover; */
+    background-image: url("images1.jpeg"); 
+    /* background-color: rgb(247, 209, 159); */
+    background-size: cover; 
     /* background-position: center; */
     height: 100px;
     margin: 0;
@@ -15,8 +15,8 @@ body {
     transform: translate(-50%, -50%);
     width: 400px;
     padding: 40px;
-    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
-    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    border-radius: 20px;
     color: #fff;
   }
   
@@ -36,13 +36,13 @@ body {
   }
   
   .input-container input {
-    width: 100%;
+    width: 92%;
     padding: 15px;
     font-size: 16px;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid #fff;
-    color: #fff;
+    color: #ffffff;
   }
   
   .input-container label {
@@ -59,22 +59,6 @@ body {
   .input-container input:valid + label {
     transform: translateY(-110%);
     font-size: 12px;
-  }
-  
-  .checkbox-container {
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .checkbox-container input {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .checkbox-container label {
-    margin-left: 5px;
-    color: #fff;
   }
   
   .btn {
